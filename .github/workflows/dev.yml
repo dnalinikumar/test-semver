@@ -16,5 +16,5 @@ jobs:
         change_path: "src"
         major_pattern: "(MAJOR)"
         minor_pattern: "(MINOR)"
-        bump_each_commit: true
+        bump_each_commit: false
         format: "${major}.${minor}.${patch}"
