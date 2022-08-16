@@ -17,4 +17,4 @@ jobs:
         major_pattern: "(MAJOR)"
         minor_pattern: "(MINOR)"
         bump_each_commit: true
-        format: "${major}.${minor}.${patch}
+        format: "${major}.${minor}.${patch}"
