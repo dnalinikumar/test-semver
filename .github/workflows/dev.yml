@@ -2,6 +2,7 @@ name: GitHub Actions Demo
 on: [push]
 jobs:
   deploy:
+    name: deploy
     runs-on: ubuntu-latest
     - name: Checkout
       uses: actions/checkout@v3
