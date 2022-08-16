@@ -13,7 +13,6 @@ jobs:
       id: version
       uses: paulhatch/semantic-version@v4.0.2
       with:
-        tag_prefix: ''
         major_pattern: "(MAJOR)"
         minor_pattern: "(MINOR)"
         bump_each_commit: true
